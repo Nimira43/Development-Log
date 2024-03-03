@@ -1,0 +1,4 @@
+- collect power-ups by colliding with Lucky Fish
+- draw projectiles as images
+- custom fonts and game text - using Bungee Spice font
+- cleaning up code - debug mode and setting player boundaries.

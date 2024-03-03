@@ -1,0 +1,15 @@
+1) Improved collision detection
+2} Removed debugging code...
+
+Debugger for brick / ball collision 
+    
+    ballX = mouseX;
+    ballY = mouseY;
+    ballSpeedX = 4;
+    ballSpeedY = -4;
+
+Debugger for brick co-ordinates and number of brick
+    
+    colorText("COLUMN = " + mouseBrickCol + ", ROW = " + mouseBrickRow + ", BRICK = " + brickIndexUnderMouse, mouseX, mouseY, 'darkblue');  
+
+3) Game-testing for remaining bugs - ball gets stuck along vertical borders  

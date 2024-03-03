@@ -1,0 +1,6 @@
+- Hive Whale enemy class added
+- Drone enemy class added
+- Dust effect animation
+- Fire effect animation
+- Tuning game difficulty
+- Bulb Whale enemy class

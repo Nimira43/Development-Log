@@ -1,0 +1,7 @@
+Setup of HTML and CSS files - basic CSS is output at the moment
+Setup of JS file -
+- canvas setup
+- skeleton setup of Classes
+- basic setup of Game and Player classes
+- basic setup of Animate function
+- no user interaction except to change speed of Player by changing value of this.speedY in Player class constructor in the script.

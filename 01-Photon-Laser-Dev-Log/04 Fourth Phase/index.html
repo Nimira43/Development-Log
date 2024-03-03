@@ -1,0 +1,113 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+</style>
+<style>
+    body {
+        background: url('./PhotonLaser.jpg'); 
+        background-size: cover;
+        margin: 0;
+        font-family: 'Splash', sans-serif;
+    }
+</style>
+
+<div style="
+        position: absolute; 
+        color: goldenrod;
+        padding: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 3px solid darkred;
+        border-radius: 20px;
+        user-select: none;
+">
+    <span>Score: <span id="scoreEl">0</span></span>
+</div>
+
+<!-- Restart Button-->
+
+<div id="modalEl" style="
+        display: none;
+        position: absolute;
+        background-color: darkred;
+        color: darkgoldenrod;
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        padding: 7px;
+        transform: translate(-50%, -50%);
+        border: 3px solid darkgoldenrod;
+        border-radius: 50px;
+        user-select: none;
+">
+    <label style="
+        font-size: 25px; 
+        margin: 0;
+    ">Game Over</label>
+    
+    <h1 id="modalScoreEl" style="
+        font-size: 45px; 
+        font-weight: bolder; 
+        color: yellow; 
+        margin-top: 0; 
+        margin-bottom: 0;
+    ">0</h1>
+    
+    <p style="
+        font-size: 20px; 
+        font-weight: bolder; 
+        margin: 0;
+    ">Points</p>
+    
+    <button id="buttonEl" style="
+        margin-top: 12px;
+        background-color: black;
+        border: none;
+        color: darkgoldenrod;
+        padding: 8px 12px;
+        border-radius: 25px;
+        cursor: pointer;
+    ">Restart Game</button>
+</div>
+
+<!-- Start Button -->
+
+<div id="startModalEl" style="
+        position: absolute;
+        background-color: darkred;
+        color: darkgoldenrod;
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        padding: 7px;
+        transform: translate(-50%, -50%);
+        border: 3px solid darkgoldenrod;
+        border-radius: 50px;
+        user-select: none;
+">
+   
+    <h1 style="
+        font-size: 55px; 
+        font-weight: bolder; 
+        color: yellow; 
+       
+    ">Photon Laser</h1>
+        
+    <button id="startButtonEl" style="
+        margin-top: 12px;
+        background-color: black;
+        border: none;
+        color: darkgoldenrod;
+        padding: 8px 12px;
+        border-radius: 25px;
+        cursor: pointer;
+    ">Start</button>
+</div>
+
+<canvas></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+<script src="script.js"></script>

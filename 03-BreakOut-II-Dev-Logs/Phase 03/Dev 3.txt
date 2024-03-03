@@ -1,0 +1,2 @@
+Brick layout completed
+Brick collision with ball - stage 1  

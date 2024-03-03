@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last X-Wing</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+        body {
+            background-color: darkred;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            border: 1px solid gold;
+        
+        }
+    </style>
+</head>
+<body>
+    <div style="
+        position: relative;    
+    ">
+        <p style = "
+            position: absolute;
+            z-index: 10;
+            color: yellow;
+            font-family: 'Nabla', sans-serif;
+            font-size: 30px;
+            left: 25px; 
+            top: 25px;
+            margin: 0;
+        ">
+        <span>Score:</span> <span id="scoreEl">0</span>
+    </p>
+        <canvas></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

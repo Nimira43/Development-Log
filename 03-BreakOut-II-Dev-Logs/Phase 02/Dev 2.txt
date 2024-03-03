@@ -1,0 +1,7 @@
+I've refactored the game from Phase 01 during this dev. Reasons...
+
+1) I don't like the idea of having JS contained in a HTML file.
+2) All HTML is in index.html, all JS is in script.js.
+3) I've add a style.css file to bring in some styling to make the game look a bit better.
+4) I've replaced var with let.
+5) I've called the game BreakOut II, thus becoming a sequel to Brad's inspired BreakOut game from 20 Projects. 

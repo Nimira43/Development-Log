@@ -1,0 +1,6 @@
+Include
+
+- Parallax scrolling animation
+- Sprite animation
+- Create debug mode
+- Animate enemy sprites sheets including Night Angler and Lucky Fish

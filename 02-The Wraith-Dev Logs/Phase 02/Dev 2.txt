@@ -1,0 +1,14 @@
+Aims -
+1. Player movement.
+2. Create projectiles.
+3. Create periodic events.
+4. Setup UI.
+5. Setup basic enemy class.
+
+- development of Game class
+- basic InputHandler class defined and Player class expanded - both for Player movement.
+- basic Projectile class defined.
+- setup recharging projectile events.
+- created ammo bar UI that shows number of projectiles as they recharge and deplete.
+- basic Enemy parent class and its child class Angler1 defined.
+

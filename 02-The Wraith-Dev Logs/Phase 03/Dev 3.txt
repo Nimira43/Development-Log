@@ -1,0 +1,10 @@
+- Collision detection between rectangles.
+- Drawing the game score.
+- Win and lose conditions.
+- Counting game time.
+
+
+
+
+This will be last phase to feature totally CSS styling which at the end of Dev 2 was made up of rectangles for the player, the enemies, the projectiles and the projectiles count bar. Phase 4 will introduce animated backgrounds and sprites.
+

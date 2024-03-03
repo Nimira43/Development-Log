@@ -1,0 +1,4 @@
+- Moon Fish enemy type added
+- Sounds added
+- Animated shield added
+- Animated projectiles added

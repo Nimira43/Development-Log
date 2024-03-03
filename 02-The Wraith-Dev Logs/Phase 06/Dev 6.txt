@@ -1,0 +1,3 @@
+- Particle effects and physics
+- Particle rotation
+- Tweaks and fixes
