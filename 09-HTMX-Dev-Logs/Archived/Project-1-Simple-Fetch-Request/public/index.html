@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>HTMX Tutorial by Brad Traversy</title>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="text-2xl font-bold my-5">
+            Simple Request Example
+        </h1>
+        <button 
+            hx-get="/users" 
+            hx-swap="outerHTML"  
+            
+            class="bg-blue-500 text-white py-2 px-3 my-5 rounded-lg"
+        >
+            Fetch Users
+        </button>
+    </div>
+</body>
+</html>
+
+<!-- Notes
+
+HTML with HTMX   
+    
+<button 
+    hx-get="https://jsonplaceholder.typicode.com/users" 
+    hx-swap="outerHTML"  
+    
+    class="bg-blue-500 text-white py-2 px-3 my-5 rounded-lg"    <-- Tailwind 
+>
+    Fetch Users
+</button>
+    
+hx-trigger="click"              - to trigger button click
+hx-trigger="mouseover"          - to trigger a mouuseover response
+hx-swap="outerHTML"             - click the button which then disappears and is
+                                  swapped with API JSON data   
+
+
+
+-->

@@ -1,0 +1,4 @@
+Based off of Brad Traversy's HTMX Crash Course.
+
+I followed the early part of the course but then stopped. I've moved the Logs from that first attempt and the state of the project when it was abandoned into these Dev Logs in  the Archived folder. I'll reboot the whole thing and start again with new Dev Logs in the Current folder.
+

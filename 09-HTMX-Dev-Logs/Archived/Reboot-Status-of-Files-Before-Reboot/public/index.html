@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>HTMX Tutorial by Brad Traversy</title>
+</head>
+<body class="bg-blue-200">
+    <div class="text-center">
+        <h1 class="text-red-700 text-2xl font-bold my-5">
+            Simple Request Example
+        </h1>
+        <button 
+            hx-get="/users" 
+            hx-target="#users"  
+            
+            class="bg-red-500 text-yellow-300 font-bold py-3 px-6 my-5 rounded-xl"
+        >
+            Fetch Users
+        </button>
+        <div class="text-red-700 font-bold"id="users"></div>
+    </div>
+</body>
+</html>
+
