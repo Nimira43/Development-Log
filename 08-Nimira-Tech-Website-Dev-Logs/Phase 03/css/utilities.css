@@ -1,0 +1,45 @@
+/* Text Colours */
+
+.text-primary {
+    color: orangered;
+}
+
+.text-secondary {
+    color: blue;
+}
+
+/* Buttons */ 
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+} 
+
+.btn-primary {
+    background: orangered;
+    color: white;
+}
+
+.btn-secondary {
+    background: blue;
+    color: white;
+}
+
+.btn-dark {
+    background: #333;
+    color: white;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #f333;
+}
